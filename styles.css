@@ -1,0 +1,17 @@
+ul{ 
+    list-style-type:none;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 4fr;
+    gap:50px; 
+}
+
+.sidebar{
+    color:white;
+    background-color: #1c94d3;
+}
+.sidebard-1{
+    display:block;
+}

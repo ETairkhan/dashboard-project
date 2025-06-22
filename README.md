@@ -1,4 +1,4 @@
 # dashboard-project
 
 
-![alt text](dashboard-project.png "Logo Title Text 1")
+![alt text](img/dashboard-project.png "Logo Title Text 1")
