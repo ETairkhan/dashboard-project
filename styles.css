@@ -2,11 +2,15 @@ ul{
     list-style-type:none;
 }
 
+/* container */
+
 .container{
     display:grid;
     grid-template-columns:1fr 4fr;
     gap:50px; 
 }
+
+/* sidebar */
 
 .sidebar{
     color:white;
@@ -15,3 +19,16 @@ ul{
 .sidebard-1{
     display:block;
 }
+
+/* header */
+.header{
+    grid-column: 2 / 3;
+}
+
+.searchbar{
+    
+}
+
+
+
+
