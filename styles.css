@@ -8,6 +8,7 @@ ul{
 .container{
     display:grid;
     grid-template-columns:1fr 4fr;
+
 }
 
 /* sidebar */
@@ -26,10 +27,18 @@ ul{
     grid-column: 2 / 3;
 }
 
+
+
 .searchbar{
     
 }
 
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* content */
 
 .content{
     grid-column: 2 / 4;
