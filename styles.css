@@ -1,5 +1,6 @@
 ul{ 
     list-style-type:none;
+    list-style-image:url("img/icon1.png");
 }
 
 /* container */
@@ -7,7 +8,6 @@ ul{
 .container{
     display:grid;
     grid-template-columns:1fr 4fr;
-    gap:50px; 
 }
 
 /* sidebar */
@@ -15,6 +15,7 @@ ul{
 .sidebar{
     color:white;
     background-color: #1c94d3;
+    grid-row: 1 / 4;
 }
 .sidebard-1{
     display:block;
@@ -30,5 +31,8 @@ ul{
 }
 
 
-
+.content{
+    grid-column: 2 / 4;
+    background-color: #E1E7EF;
+}
 
