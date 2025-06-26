@@ -169,7 +169,6 @@ ul{
 }
 
 .your-project-containers{
-
     display:grid;
     gap:50px;
     grid-template: 200px 200px 200px / 500px  500px;
@@ -180,7 +179,10 @@ ul{
     color:#161616;
 }
 
-.your-project .card{
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color:white;
     border-left: 10px solid #EFB342;
     border-radius:2%;
@@ -189,11 +191,27 @@ ul{
 .your-project-containers-img{
     display: flex;
     justify-content: flex-end;
-
+    margin-bottom: 20px;
 }
 .your-project-containers-img img{
     box-sizing: border-box;
     width:50px;
-    padding-top:30px;
     padding-right: 30px;
+}
+
+
+.card-text{
+    margin: 20px 0 0 20px;
+}
+
+#card-title{
+    font-weight: bold;
+    margin:0 0 10px 0;
+}
+
+#card-text{
+    font-size:1em;
+    width:90%;
+    color:#636363;
+    margin:0;
 }
