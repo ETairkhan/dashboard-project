@@ -63,10 +63,34 @@ ul{
     grid-column: 2 / 3;
 }
 
-
-
 .searchbar{
-    
+    display:flex;
+    justify-content: space-between;
+}
+
+.searchbar-input{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar-input img{
+    width:40px;
+}
+
+
+.searchbar-input input{
+    width:600px;
+    background-color:rgb(211, 208, 208);    
+    height:30px;
+    border-radius:20px;
+    border:none;
+}
+
+
+.searchbar-notification{
+    display: flex;
+    justify-content: space-between;
 }
 
 .profile{
