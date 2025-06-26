@@ -95,7 +95,7 @@ ul{
 .searchbar-notification{
     display: flex;
     justify-content: space-between;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size:15px;
@@ -106,16 +106,56 @@ ul{
 }
 
 .searchbar-notification p{
-    padding: 0 20px 0 20px;
+    padding: 0 60px 0 20px;
 }
-
 
 
 .profile{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    margin: 30px 0 30px 0;
+
 }
 
+
+.profile-hello{
+  display: flex;
+  align-items: center;
+  padding-left:3vw;
+}
+
+.profile-hello img{
+    padding-right:20px;
+    width:90px;
+}
+
+.profile #hi{
+    font-size:0.7em;
+    margin-bottom: 0;
+}
+
+.profile #name{
+    margin: 5px 0 10px 0;
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+.profile-buttons{
+    width:15vw;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-right:60px;
+}
+
+.profile-buttons button{
+    width:100px;
+    height:40px;
+    border-radius:40%;
+    border:none;
+    background-color: #1c94d3;
+    color:#FFFFFF;
+}
 /* content */
 
 .content{
