@@ -72,15 +72,19 @@ ul{
     display:flex;
     justify-content: center;
     align-items: center;
+    padding-left:60px;
+    padding-right:200px;
 }
 
 .searchbar-input img{
-    width:40px;
+    max-width: 100%; /* ensures image doesn't overflow */
+    max-height: 100%;
+    padding-bottom:10px;
 }
 
 
 .searchbar-input input{
-    width:600px;
+    width:900px;
     background-color:rgb(211, 208, 208);    
     height:30px;
     border-radius:20px;
@@ -91,7 +95,21 @@ ul{
 .searchbar-notification{
     display: flex;
     justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:15px;
 }
+
+.searchbar-notification img{
+    padding-left:20px;
+}
+
+.searchbar-notification p{
+    padding: 0 20px 0 20px;
+}
+
+
 
 .profile{
     display: flex;
