@@ -171,7 +171,7 @@ ul{
 .your-project-containers{
     display:grid;
     gap:50px;
-    grid-template: 200px 200px 200px / 500px  500px;
+    grid-template: 200px 200px 200px / 600px  600px;
 }
 
 #your-project-title{
@@ -214,4 +214,35 @@ ul{
     width:90%;
     color:#636363;
     margin:0;
+}
+
+.announcements-trending{
+    margin:23px 0 0 20px;
+}
+
+.announcements-info{
+    background-color: #FFFFFF;
+    height:30vh;
+    padding: 10px 30px 30px 30px;
+}
+
+.news{
+    padding:10px 0 10px 0;
+    border-bottom: 1px solid #636363;
+}
+
+.news p{
+    margin:0;
+}
+
+
+#news-title{
+    color:#161616;
+    font-weight: bold;
+}
+
+#news-text{
+    color: #636363;
+    font-size:0.9em;
+    width:70%;
 }
