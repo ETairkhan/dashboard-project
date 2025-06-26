@@ -256,4 +256,18 @@ ul{
 
 .trends{
     display:flex;
+    padding-bottom: 20px;   
+}
+
+.trends img{
+    height:50px;
+}
+
+#trends-title{
+    margin:8px 0 0 10px;
+}
+
+#trends-text{
+    margin:0 0 0 10px;
+    color: #636363;
 }
