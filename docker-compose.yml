@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  test:
+    build: .
+    volumes:
+      - .:/usr/src/app  # Mounts your code for live changes
+    command: npm test   # Runs tests by default
